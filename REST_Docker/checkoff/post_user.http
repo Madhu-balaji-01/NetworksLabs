@@ -1,0 +1,14 @@
+// For role, only 'student', 'prof' or 'TA' are accepted as valid arguments
+POST http://127.0.0.1:80/create HTTP/1.1
+Content-Type: application/json
+
+{
+  "first_name": "Tony",
+  "last_name": "Quek",
+  "role": "prof",
+  "gpa": 5.3,
+  "created_at": "datetime",
+  "password": "admin"
+}
+
+###

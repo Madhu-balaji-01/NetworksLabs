@@ -1,0 +1,4 @@
+// sortBy can be set to any of the following parameters:
+//_id, first_name, last_name, gpa, role, created_at
+GET http://127.0.0.1:80/list?sortBy=last_name HTTP/1.1
+
